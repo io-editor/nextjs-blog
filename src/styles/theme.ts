@@ -3,8 +3,15 @@ import { red } from '@mui/material/colors';
 
 // Create a theme instance.
 const theme = createTheme({
-  palette: {
-
+  typography: {
+    fontSize: 16,
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      "Noto Sans JP",
+      "sans-serif",
+    ].join(","),
+    fontDisplay: "swap",
   },
 });
 
