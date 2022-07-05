@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import Copyright from 'src/components/utils//Copyright';
+import Copyright from 'components/utils/Copyright';
 
 export const Footer = memo(() => {
   return (

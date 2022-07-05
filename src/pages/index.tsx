@@ -1,13 +1,14 @@
 import * as React from 'react';
 import type { NextPage } from 'next';
 
+import { Layout } from 'components/layouts/Layout';
 
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Link from 'src/components/utils//Link';
-import ProTip from 'src/components/utils//ProTip';
-import Copyright from 'src/components/utils//Copyright';
+import Link from 'components/utils/Link';
+import ProTip from 'components/utils/ProTip';
+import Copyright from 'components/utils/Copyright';
 
 const Home: NextPage = () => {
   return (

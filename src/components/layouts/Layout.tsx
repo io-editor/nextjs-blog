@@ -1,7 +1,14 @@
-import { Header, Footer } from '@src/component/layouts';
+// import { Header, Footer } from '@src/component/layouts';
+import { Header } from 'components/layouts/Header';
+import { Footer } from 'components/layouts/Footer';
 import Container from '@mui/material/Container';
+import { ReactNode } from "react";
 
-export default function Layout({ children }) {
+interface Props {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
@@ -11,4 +18,6 @@ export default function Layout({ children }) {
       <Footer />
     </>
   );
-}
+};
+
+export default Layout;
